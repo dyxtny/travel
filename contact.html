@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body  class="bg-black text-white">
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  ">
+        <nav class="navbar navbar-dark bg-body-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    PrimeWay Travel
+                </a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Other
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="sosmed.html">Sosmed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class=" container text-center">
+        <div class="text-secondary">
+            <h1>hati-hati terhadap penipuan !</h1>
+            <p><i>primeway tidak memiliki kerjasama dengan instansi terntentu dalam hal penyediaan tiket dan proses recruitment
+                karyawan, kami menghimbau bapak dan ibu sekalian untuk berhati hati terhdap segala jenis penipuan yang mengatas namakan
+                primeway.</i></p>
+            <p>untuk info lebih lanjut silahkan menghubungi kami di 021 365 5676/3557 atau email kami ke: primeway@meway-tour.com</p>
+        </div>
+    </div>
+    <hr>
+    <div class="text-center">
+        <h3>have any question and suggestion?</h3>
+            please do not hesitate to contact us. We will follow up soon, thank you.<br>
+            instant message on whatsapp 0891-7254-321
+    </div>
+    <style>
+        body {
+            background-color: #000; /* Background hitam */
+            color: white; /* Teks putih */
+        }
+        .list-group-item {
+            transition: transform 0.3s, background-color 0.3s;
+            background-color: #1c1c1c;
+            color: white;
+            border: none;
+        }
+        .list-group-item:hover {
+            transform: scale(1.05);
+            background-color: #91c4f4; /* Warna abu-abu saat hover */
+        }
+        .list-group-item:active {
+            transform: scale(1.1);
+            background-color: #709bf8 !important; /* Warna lebih biru saat diklik */
+        }
+        .info-box {
+            background-color: #222; /* Warna kotak info */
+            color: rgb(134, 176, 240);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        /* Styling umum */
+body {
+    background: linear-gradient(to right, #000000, #000000);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container utama */
+.form-container {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Bagian Register */
+.register-form {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Bagian Login */
+.login-form {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    font-size: 20px;
+    color: white;
+    background: #0072ff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #00c6ff;
+}
+
+/* Form Input */
+.form-control {
+    height: 45px;
+    border-radius: 5px;
+}
+
+/* Tombol */
+.btn {
+    height: 45px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #0072ff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0057d9;
+}
+
+.btn-danger {
+    background: #ff4444;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #cc0000;
+}
+
+/* Link Lupa Password */
+.forgot-password {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <h3 class="text-center"><b>Hubungi Primeway</b></h3>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="row form-container">
+            <!-- Form Register -->
+            <div class="col-lg-6 register-form p-5">
+                <h3 class="text-center mb-4">Register</h3>
+                <div class="social-icons text-center mb-3">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Confirm Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">REGISTER</button>
+                </form>
+            </div>
+
+            <!-- Form Login -->
+            <div class="col-lg-6 login-form p-5">
+                <h3 class="text-center mb-4">Log In</h3>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember Me</label>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100">LOG IN</button>
+                    <div class="text-center mt-3">
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="mt-4 info-box white">
+        <h4>Informasi Penting</h4>
+        <p>Update terbaru tentang layanan healing dan perjalanan dengan Primeway.</p>
+    </div>
+</div>
+<footer class="bg-gray-600 text-white mt-5">
+    <div class="container py-5">
+        <div class="row">
+            <!-- Kolom 1 -->
+            <div class="col-md-3">
+                <h5>Section</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Features</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Pricing</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">FAQs</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                </ul>
+            </div>
+            <!-- Kolom 2 -->
+            <div class="col-md-3">
+                <h5>Section</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Features</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Pricing</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">FAQs</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                </ul>
+            </div>
+            <!-- Kolom 3 -->
+            <div class="col-md-3">
+                <h5>Section</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Features</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Pricing</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">FAQs</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                </ul>
+            </div>
+            <!-- Kolom 4: Subscribe Form -->
+            <div class="col-md-3">
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <form class="d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Email address">
+                    <button class="btn btn-outline-light" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-alight mt-12">
+            <p>
+                © 2024 Company, Inc. All rights reserved.
+            </p>
+            <hr>
+        </div>
+    </footer>
+</body>
+</html>

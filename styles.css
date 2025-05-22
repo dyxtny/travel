@@ -1,0 +1,18 @@
+/* Kontainer untuk gambar yang bisa digeser */
+.scroll-container {
+    width: 100%;  /* Lebar wadah, bisa disesuaikan */
+    height: 500px; /* Tinggi wadah, bisa disesuaikan */
+    overflow-x: auto;  /* Membuat gambar bisa digeser secara horizontal */
+    overflow-y: hidden;  /* Menyembunyikan scroll vertikal */
+    white-space: nowrap;  /* Membuat gambar tidak terbungkus dalam beberapa baris */
+    margin: 20px auto;
+    border: 2px solid #ccc; /* Border untuk memperjelas area */
+}
+
+.scroll-container img {
+    height: 100%;  /* Menyesuaikan tinggi gambar dengan kontainer */
+    margin-right: 10px;  /* Memberikan jarak antar gambar */
+    display: inline-block;  /* Memastikan gambar ditampilkan dalam satu baris */
+    object-fit: cover;
+}
+
